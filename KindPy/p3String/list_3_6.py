@@ -34,14 +34,30 @@ marks = [2, 3, 4, 3, 5, 2]
 s_in = ['I', 'like', 'python', 'I', 'like', 'python', 'I', 'like', 'python']
 # s_in1 = 'like' in s_in # True; in- проверка вхождения элемента в спиисок
 # s_in2 = 'pike' in s_in # False; in- проверка вхождения элемента в спиисок
+#
+# s_del = del s_in[3]
+# print(s_in)
 
-s_del = del s_in[3]
-print(s_in)
+# q, w, e = map(int, input().split())
+# lst = [q, w, e]
+# print(lst)
 
+# cities = input().split()
+# # print("Москва" in cities)
+# print(cities[4])
 
+# marks = list(map(int, input().split()))
+# karl = (sum(marks) / len(marks))
+# print(f'{karl:.1f}')
 
-
-
+name = input()
+author = input()
+page = int(input())
+price = float(input())
+book = [name, author, page, price * 2]
+del book[2]
+book[1] = "Пушкин"
+print(book)
 
 
 
