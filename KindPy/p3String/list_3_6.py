@@ -1,3 +1,5 @@
+from typing import LiteralString
+
 city = ['Moscow', 'Brest', 'Salsk']
 marks = [2, 3, 4, 3, 5, 2]
 # print(int((marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5]) /6))
@@ -49,20 +51,25 @@ s_in = ['I', 'like', 'python', 'I', 'like', 'python', 'I', 'like', 'python']
 # marks = list(map(int, input().split()))
 # karl = (sum(marks) / len(marks))
 # print(f'{karl:.1f}')
+#
+# name = input()
+# author = input()
+# page = int(input())
+# price = float(input())
+# book = [name, author, page, price * 2]
+# del book[2]
+# book[1] = "Пушкин"
+# print(book)
 
-name = input()
-author = input()
-page = int(input())
-price = float(input())
-book = [name, author, page, price * 2]
-del book[2]
-book[1] = "Пушкин"
-print(book)
+# man = list(map(int, input().split()))
+# max_man = max(man)
+# min_man = min(man)
+# sum_man = sum(man)
+# print(max_man, min_man, sum_man)
 
+# lst1 = list(map(int, input().split()))
+# lst = sorted(lst1, reverse=True)
+# print(*lst)
 
-
-
-
-
-
-
+cities = ["Москва", "Тверь", "Вологда"]
+print(*((list(input().split())) + cities))
