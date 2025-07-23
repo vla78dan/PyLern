@@ -97,7 +97,7 @@ str = input()
 if 't' in str and 'h' in str and 'o' in str:
     print("ДА")
 else:
-    print("НЕТ")
+    print("OR")
 
 
 
