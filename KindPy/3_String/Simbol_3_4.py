@@ -11,14 +11,14 @@ q1 = "\tpanda\nneeds\npython" # \t - табуляция
 
 q2 = "panda\\needs\\ python" # \\ - экранирование
 #panda\needs\ python
-#путь к файлуF:\Py\3129\PyLern\KindPy\p3String
+#путь к файлуF:\Py\3129\PyLern\KindPy\3_String
 q3 = "F:\\Py\\3129\\PyLern\\KindPy\\p3String"
 #console
-#F:\Py\3129\PyLern\KindPy\p3String
+#F:\Py\3129\PyLern\KindPy\3_String
 
 q4 = r"F:\\Py\\3129\\PyLern\\KindPy\\p3String" # row строка - сырая строка выводит так, как записано в строке, игнорируя спецсимволы
 #console
-#F:\\Py\\3129\\PyLern\\KindPy\\p3String
+#F:\\Py\\3129\\PyLern\\KindPy\\3_String
 
 
 
