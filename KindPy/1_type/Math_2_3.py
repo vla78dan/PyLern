@@ -61,7 +61,7 @@ Cnk = math.factorial(n) / ((math.factorial(k)) * (math.factorial(n - k)))
 n, m = map(int, input().split())
 
 total_bus = math.ceil((n + m) / 20)
-'''
+
 
 x = int(input())
 sale = x * 0.1
@@ -69,7 +69,7 @@ total = x - sale
 
 res = int(500 // total)
 # print(total)
-
+'''
 
 
 
