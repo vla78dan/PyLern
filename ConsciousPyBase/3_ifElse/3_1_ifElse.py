@@ -385,8 +385,6 @@ print(10 if 5 < 1 else 7) # 7
 - Если первый или третий элемент списка request является строкой (str) выведите на экран текст:
 Алон, исправь строки на числа!
 - Иначе выведите на экран текст: Алон, всё нормально, это числа!
-
-"""
 request = ['1.9', "+", 1.4]
 request_int = isinstance(request[0], int) and isinstance(request[2], int)
 request_float = isinstance(request[0], float) and isinstance(request[2], float)
@@ -394,8 +392,13 @@ if request_float or request_int:
     print('Алон, всё нормально, это числа!')
 else:
     print('Алон, исправь строки на числа!')
+"""
 
+import winsound
+# winsound.Beep(700, 500)
 
+for i in range(200, 4000, 200):
+    winsound.Beep(i, 100)
 
 
 
