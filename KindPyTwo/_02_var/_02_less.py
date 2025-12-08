@@ -34,11 +34,11 @@ s2 = input()
 s1 = input()
 s2 = input()
 print(s1, s2)
-"""
+
 
 msg = 'brasil'
 print(msg.index('ad'))
-
+"""
 
 
 
