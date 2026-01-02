@@ -3,4 +3,7 @@
 # print(q - w)
 # print(q * w)
 
-import this
+# import this
+
+name = "Natasha"
+print(NAME)
