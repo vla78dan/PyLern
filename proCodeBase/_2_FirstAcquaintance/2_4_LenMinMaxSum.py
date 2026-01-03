@@ -24,32 +24,19 @@ print(sum(scores), max(scores), min(scores))
 
 st = input()
 print(len(st))
-"""
 
+name = input().split()
+print(len(name))
 
 
 scores = list(map(int, input().split()))
+print(max(scores), min(scores), sep="\n")
+
+cost = list(map(int, input().split()))
+print(sum(cost))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+"""
+q = input()
+u = input()
+print(len(q) + len(u))
