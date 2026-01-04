@@ -35,8 +35,37 @@ print(max(scores), min(scores), sep="\n")
 cost = list(map(int, input().split()))
 print(sum(cost))
 
-
-"""
 q = input()
 u = input()
 print(len(q) + len(u))
+
+data_type = input()
+print(type(data_type))
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
