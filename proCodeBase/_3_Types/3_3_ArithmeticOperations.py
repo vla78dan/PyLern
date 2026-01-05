@@ -62,17 +62,20 @@ P, n, r = map(float, input().split())
 print(P * ((1 + (r / 100)) ** n))
 
 
-
-
-
-
-
-"""
 ducks, ponds = map(int, input().split())
 print((int(ducks / ponds)), (ducks % ponds))
 print(*divmod(ducks, ponds))
 
+print(bool(" "))
 
+print(7 == 5)
+
+
+"""
+price1 = int(input().strip())
+price2 = int(input().strip())
+
+print(price1 == price2)
 
 
 
