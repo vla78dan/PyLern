@@ -72,10 +72,33 @@ server_connection = bool(server_connection)
 print(data_volume <= 1.0 and cpu_load<= 70.0 and memory>= 16.0 and server_connection == True)
 
 
+q, w, e = map(int, input().split())
+
+print(q > 10 and w > 10 and e > 10)
+
+
+
+
 
 
 """
 
-q, w, e = map(int, input().split())
 
-print(q > 10 and w > 10 and e > 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
