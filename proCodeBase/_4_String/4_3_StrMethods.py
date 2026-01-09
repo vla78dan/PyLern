@@ -29,8 +29,13 @@ print(text.lower())
 
 str1 = input()
 print(str1.replace('Python', 'coding'))
+
+str1 = input().strip()
+print(str1.replace(' ', '_'))
 """
 
+
+print(" ".join(input().strip().split()))
 
 
 
