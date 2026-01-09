@@ -32,10 +32,20 @@ print(str1.replace('Python', 'coding'))
 
 str1 = input().strip()
 print(str1.replace(' ', '_'))
+
+print(" ".join(input().strip().split()))
+
+str1 = input()
+print(str1.startswith('Привет') and str1.endswith("!"))
+
+mes = input().strip()
+print(mes.upper(), mes.lower(), mes.capitalize(), mes.title(), sep='\n')
+
 """
 
 
-print(" ".join(input().strip().split()))
+
+
 
 
 
