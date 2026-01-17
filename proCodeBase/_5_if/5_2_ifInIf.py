@@ -55,8 +55,106 @@ else:
 
 
 
+given = input().split()
+type_post = given[0]
+weight = float(given[1])
+distance = float(given[2])
+
+if weight <= 5:
+    base_cost = 200
+elif 5.01 <=weight <= 20:
+    base_cost = 500
+else:
+    base_cost = 1000
+
+if type_post == 'срочная':
+    if distance <= 100:
+        cost = base_cost * 1.1
+    elif distance > 100:
+        cost = base_cost * 1.15
+else:
+    cost = base_cost
+
+print(f'Стоимость доставки: {round(cost)} рублей.')
+
+
+date_input = input()
+year, month, day = date_input.split('-')
+
+if month == '01':
+    month_name = 'января'
+elif month == '02':
+    month_name = 'февраля'
+elif month == '03':
+    month_name = 'марта'
+elif month == '04':
+    month_name = 'апреля'
+elif month == '05':
+    month_name = 'мая'
+elif month == '06':
+    month_name = 'июня'
+elif month == '07':
+    month_name = 'июля'
+elif month == '08':
+    month_name = 'августа'
+elif month == '09':
+    month_name = 'сентября'
+elif month == '10':
+    month_name = 'октября'
+elif month == '11':
+    month_name = 'ноября'
+else:
+    month_name = 'декабря'
+
+print('{day} {month} {year} '.format(year=year, month=month_name, day=day))
+
+
+min_tarif, int_tarif = map(int, input().split())
+if min_tarif < 100 and int_tarif < 5:
+    print('Вам подходит тариф "Эконом". Стоимость: 300 рублей.')
+elif min_tarif < 100 and int_tarif > 5:
+    print('Вам подходит тариф "Интернет+". Стоимость: 500 рублей.')
+elif min_tarif >= 100 and int_tarif < 5:
+    print('Вам подходит тариф "Разговоры". Стоимость: 400 рублей.')
+elif min_tarif >= 100 and int_tarif >= 5:
+    print('Вам подходит тариф "Премиум". Стоимость: 700 рублей.')
 """
-type1, weight, distance = input().split()
+
+minut, internet = map(int, input().split())
+
+if minut < 100:
+    if internet < 5:
+        print('Вам подходит тариф "Эконом". Стоимость: 300 рублей.')
+    else:
+        print('Вам подходит тариф "Интернет+". Стоимость: 500 рублей.')
+else:
+    if internet < 5:
+        print('Вам подходит тариф "Разговоры". Стоимость: 400 рублей.')
+    else:
+        print('Вам подходит тариф "Премиум". Стоимость: 700 рублей.')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
