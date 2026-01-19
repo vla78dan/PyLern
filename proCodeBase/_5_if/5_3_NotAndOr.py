@@ -84,11 +84,16 @@ elif health <= 50 and has_weapon and has_armor:
 elif health <= 50 and (has_weapon and has_armor):
     print('Не стоит рисковать, но у тебя есть все шансы выжить!')
 
+health = int(input())
+mana = int(input())
+has_item = input().strip().lower() == "да"
 
+if (health >= 50 and mana > 0) or (health <= 50 and has_item):
+    print('Герой готов к битве!')
+else:
+    print('Герой не готов к битве!')
 
 """
-
-
 
 
 
