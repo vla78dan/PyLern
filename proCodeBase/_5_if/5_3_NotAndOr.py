@@ -93,7 +93,84 @@ if (health >= 50 and mana > 0) or (health <= 50 and has_item):
 else:
     print('Герой не готов к битве!')
 
+
+rose = int(input())
+tulpe = int(input())
+lily = int(input())
+
+if rose > 10 and tulpe > 0:
+    print('Нельзя добавить тюльпаны, если роз больше 10!')
+elif rose > 5 and lily >= 1:
+    print('Нельзя добавить больше 5 роз, если в букете есть лилии!')
+elif (rose + tulpe + lily ) < 3:
+    print('Букет слишком мал, добавьте больше цветов!')
+else:
+    print('Букет собран!')
+
+
+
+
+rating = int(input())
+genre = input()
+film_duration = int(input())
+
+if (rating >=7)  and (genre == 'боевик' or genre == 'комедия') and (film_duration <= 120):
+    print('Фильм подходит для просмотра!')
+else:
+    print('Фильм не подходит для просмотра!')
+
+
+rating = int(input())
+theme = input()
+l = int(input())
+
+if (rating >= 7) and (theme == 'космос' or theme == 'электромобили' or theme == 'искусственный интеллект') and (l <= 100):
+    print('Вопрос принят!')
+else:
+    print('Вопрос отклонен!')
+
+soldier = int(input())
+weapons = int(input())
+morale = int(input())
+
+if soldier < 500:
+    print('Недостаточно солдат!')
+elif weapons * 2 < soldier:
+    print('Недостаточно оружия!')
+elif morale >= 70 or soldier > 1000:
+    print('Армия готова к битве!')
+else:
+    print('Низкая мораль армии!')
+
 """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
