@@ -142,7 +142,48 @@ elif morale >= 70 or soldier > 1000:
 else:
     print('Низкая мораль армии!')
 
+
+
+children = int(input())
+box = int(input())
+suit = int(input())
+
+if box >= children and suit >= 3:
+    print('Праздник состоится!')
+elif box < children:
+    print('Не хватает подарков!')
+elif suit <= 3:
+    print('Недостаточно костюмов снегурочек!')
+
+
+
+age = int(input())
+statu = input().strip().lower()
+rating = int(input())
+in_IT = input().strip().lower() == 'да'
+invite = input().strip().lower() == 'да'
+
+if age < 18:
+    print('Недостаточный возраст')
+elif not statu == 'разработчик' and not statu == 'дизайнер':
+    print('Неверный профессиональный статус')
+elif invite:
+    print('Доступ разрешен')
+elif rating > 80:
+    print('Доступ разрешен')
+elif(50 <= rating <= 80) and in_IT:
+    print('Доступ разрешен')
+else :
+    print('Недостаточный рейтинг')
+
 """
+
+
+
+
+
+
+
 
 
 
