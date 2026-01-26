@@ -32,8 +32,69 @@ num1 = int(input())
 num2 = int(input())
 print((num1 + num2), (num1 - num2), (num1 * num2),sep='\n')
 
+monitor_price = int(input())
+box_price = int(input())
+mouse_price = int(input())
+keyboard_price = int(input())
+sum_price = monitor_price + box_price + mouse_price + keyboard_price
+print('Стоимость компа:', sum_price)
+
+m1 = int(input())
+m2 = int(input())
+m3 = int(input())
+m4 = int(input())
+sum_4m = m1 + m2 + m3 + m4
+middle = sum_4m / 4
+print('Всего за 4 месяца:', sum_4m)
+print('Среднее:', middle)
+
+
+num1 = int(input())
+num2 = int(input())
+print((num1 * 15000) + (num2 * 500))
+
+code_str = int(input())
+mistake = int(input())
+print((code_str * 100) - (mistake * 60))
+
+
+num_M = int(input())
+num_L = int(input())
+num_D = int(input())
+sum_L_D = num_D + num_L
+total_M = num_M - sum_L_D
+print(sum_L_D, total_M, sep='\n')
+
+sleep = int(input())
+if sleep > 7:
+    print('Молодец, ты отлично выспался!')
+
+film = input()
+if film == 'Форсаж':
+    print('Семья - это главное!')
+
+
+pass_M = input()
+if pass_M == 'жукбук34':
+    print('Добро пожаловать в систему!')
+
+post_first = input()
+post_second = input()
+
+if post_first != post_second:
+    print('Ошибка, почты не совпадают!')
+
+
 
 """
+
+
+
+
+
+
+
+
 
 
 
