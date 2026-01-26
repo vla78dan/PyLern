@@ -25,14 +25,19 @@ for _ in range(3):
 print('Dodd')
 
 
+count = int(input())
 
+for i in range(count):
+    print('Go!')
 
 
 """
 
+count = input()
+count_num = int(input())
 
-
-
+for i in range(count_num):
+    print(count)
 
 
 
