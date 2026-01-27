@@ -84,9 +84,64 @@ post_second = input()
 if post_first != post_second:
     print('Ошибка, почты не совпадают!')
 
+pass_M = input()
+if pass_M == 'жукбук34':
+    print('Добро пожаловать в систему!')
+if pass_M != 'жукбук34':
+    print('Пароль неверный. Отказ в доступе!')
+
+
+temp = int(input())
+if temp > 14:
+    print('Проводим урок на улице!')
+else:
+    print('Отогреваемся в спортзале!')
+
+    name = input()
+if name == 'Малёк':
+    print('Здравствуй, Малёк, я так скучала!')
+else:
+    print('Уходите, я вас не знаю!')
+
+m1 = int(input())
+m2 = int(input())
+
+if (m1 + m2) > 100:
+    print('Ютуб растёт!')
+else:
+    print('Ютуб замедляется...')
+
+    m = int(input())
+r = int(input())
+another = int(input())
+if (m + r + another) < 4:
+    print('Можно ещё поиграть!')
+else:
+    print('Игр достаточно, лучше пойти кодить!')
+
+
+day = input()
+
+if day == 'будни':
+    print('Добыть завтрак', 'Сходить в школу', 'Попрогать', sep='\n')
+else:
+    print('Посмотреть любимый сериал', 'Погулять с друзьями', 'Сыграть в настолки', sep='\n')
+
+
+
 
 
 """
+
+
+
+
+
+
+
+
+
+
 
 
 
