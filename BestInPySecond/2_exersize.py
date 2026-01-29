@@ -29,8 +29,29 @@ lightning = 300
 total_pow = (ball * 2) + (lightning * 2)
 
 print('Здоровье босса после атак:', boss_hp - total_pow)
+
+
+num_of_oper = int(input()) * 20000
+num_of_vaccinations = int(input()) * 500
+num_of_diss_quadrobers = int(input()) * 2
+total = num_of_oper + num_of_vaccinations - num_of_diss_quadrobers
+print('Итоговая зарплата:', total)
+
+
+
+
+
 """
 
+name = input()
+attack_power = int(input())
+speed = int(input())
+agility = int(input())
+level = int(input())
+
+total_pow = ((attack_power * 4) + (agility * 2) + (speed * 3)) * level
+print('Имя персонажа:', name)
+print('Боеспособность персонажа:', total_pow)
 
 
 
