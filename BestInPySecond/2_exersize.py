@@ -23,8 +23,18 @@ print('Стоимость двух киндеров:', kinder_price * 2)
 print('Стоимость ста киндеров:', kinder_price * 100)
 
 
+boss_hp = 1000
+ball = 200
+lightning = 300
+total_pow = (ball * 2) + (lightning * 2)
 
+print('Здоровье босса после атак:', boss_hp - total_pow)
 """
+
+
+
+
+
 
 
 
