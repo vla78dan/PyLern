@@ -38,11 +38,6 @@ total = num_of_oper + num_of_vaccinations - num_of_diss_quadrobers
 print('Итоговая зарплата:', total)
 
 
-
-
-
-"""
-
 name = input()
 attack_power = int(input())
 speed = int(input())
@@ -53,9 +48,21 @@ total_pow = ((attack_power * 4) + (agility * 2) + (speed * 3)) * level
 print('Имя персонажа:', name)
 print('Боеспособность персонажа:', total_pow)
 
+stone = 37
+wood = 30
+food = 20
+build = 90
+
+if build >= 75:
+    print('Вы можете построить лабораторию')
+if wood >= 25:
+    print('Вы можете построить фабрику')
+if build >= 100:
+    print('Вы можете построить университет')
 
 
 
+"""
 
 
 
