@@ -60,13 +60,80 @@ if wood >= 25:
 if build >= 100:
     print('Вы можете построить университет')
 
+name_film = input()
+genre = input()
+reit = int(input())
+
+if genre == 'мелодрама' and reit > 7:
+    print('Да, директор заценит!')
+else:
+    print('Не, это кино директору лучше не предлагать...')
+
+
+
+mistake = int(input())
+right = int(input())
+
+if mistake == right:
+    print('Программист получает квартиру в центре')
+else:
+    print('Программист без премии, остаётся жить в поместье...')
+
+
+
+mistake = int(input())
+right = int(input())
+day = int(input())
+if mistake == right and day < 7:
+    print('Программист получает новый айфон!')
+else:
+    print('Программист остаётся с прошлогодним айфоном...')
+
+
+
+course = int(input())
+you_rol = int(input())
+
+if course >=1 or you_rol >=7:
+    print('Программист получает билет на круиз!')
+else:
+    print('Программист остаётся без премии на Бали!')
+
+
+dj_color = input()
+up_dress = input()
+if dj_color == 'синий' or up_dress == 'синий':
+    print('Классный прикид! Проходите в школу')
+else:
+    print('Увы, в таком виде вам в школу нельзя!')
+
+day_in = int(input())
+day_on = int(input())
+
+if day_in >= day_on:
+    print('Программисту отправлено 4 банки чёрной икры')
+else:
+    print('Программист без премии, вынужден питаться фуагрой')
+
+day_in = int(input())
+day_on = int(input())
+like = input()
+
+if (day_in >= day_on) or like == 'да':
+    print('Программист получает новую BMW M5')
+else:
+    print('Программист продолжает ездить на прошлогодней Audi')
+
+
 
 
 """
-
-
-
-
+name = input()
+genre = input()
+if genre == 'рэп' or genre == 'поп':
+    print('Мы добавляем в плейлист:', name)
+else:
+    print('Увы, эта песня не подходит')
 
 
 
