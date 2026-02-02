@@ -157,12 +157,84 @@ elif num == 4:
 elif num == 5:
     print('Шаман - Я Русский!')
 
+num = int(input())
+
+if num == 1:
+    print('Niletto - Любимка')
+elif num == 2:
+    print('Баста - Медлячок')
+elif num == 3:
+    print('Instasamka - За деньги да')
+elif num == 4:
+    print('Anna Asti - Царица')
+elif num == 5:
+    print('Шаман - Я Русский!')
+
+food = input()
+
+if food == 'пицца':
+    print('Вы получаете сок')
+elif food == 'суп':
+    print('Вы получаете гренки')
+elif food == 'роллы':
+    print('Вы получаете соус')
+elif food == 'печенька':
+    print('Вы получаете мороженое')
+else:
+    print('Извините, это блюдо мы пока не готовим...')
+
+num1 = int(input())
+sign = input()
+num2 = int(input())
+
+if sign == '+':
+    print(num1 + num2)
+elif sign == '-':
+    print(num1 - num2)
+elif sign == '*':
+    print(num1 * num2)
+elif sign == '/':
+    print(num1 / num2)
+else:
+    print('Не знаю такого действия...', 'Чтобы я посчитала, введите: + - * /', sep='\n')
 
 
+ram_pc = int(input())
 
+if ram_pc >= 1:
+    print('Portal2')
+if ram_pc >= 2:
+    print('Counter-Strike: GO')
+if ram_pc >= 4:
+    print('Fortnite')
+if ram_pc >= 8:
+    print('Cyberpunk 2077')
+
+num = int(input())
+print(num + 5, num * 2, sep='\n')
+
+
+num = int(input())
+num2 = int(input())
+print(num - num2)
+
+
+n1 = int(input())
+n2 = int(input())
+print(n1 + n2, n1 * n2, n1, n2)
+
+n1 = int(input())
+n2 = int(input())
+n3 = int(input())
+print(n1 + n2, n3 * n2, sep = '\n')
+
+w1 = input()
+n1 = int(input())
+n2 = int(input())
+
+print(n1 * 2, n1 * 3, w1)
+print(w1, n1 + 2, w1)
 """
-
-
 
 
 
