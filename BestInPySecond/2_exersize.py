@@ -125,15 +125,43 @@ else:
     print('Программист продолжает ездить на прошлогодней Audi')
 
 
-
-
-"""
 name = input()
 genre = input()
 if genre == 'рэп' or genre == 'поп':
     print('Мы добавляем в плейлист:', name)
 else:
     print('Увы, эта песня не подходит')
+
+food = input()
+
+if food == 'пицца':
+    print('Вы получаете сок')
+elif food == 'суп':
+    print('Вы получаете гренки')
+elif food == 'роллы':
+    print('Вы получаете соус')
+elif food == 'печенька':
+    print('Вы получаете мороженое')
+
+
+    num = int(input())
+
+if num == 1:
+    print('Niletto - Любимка')
+elif num == 2:
+    print('Баста - Медлячок')
+elif num == 3:
+    print('Instasamka - За деньги да')
+elif num == 4:
+    print('Anna Asti - Царица')
+elif num == 5:
+    print('Шаман - Я Русский!')
+
+
+
+
+"""
+
 
 
 
