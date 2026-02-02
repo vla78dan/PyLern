@@ -234,7 +234,91 @@ n2 = int(input())
 
 print(n1 * 2, n1 * 3, w1)
 print(w1, n1 + 2, w1)
+
+num1 = int(input())
+
+if num1 >= 2 and num1<=7:
+    print('Лайк от бабули')
+else:
+    print('Бабуля недовольна!')
+
+num_vk = int(input())
+num_tt = int(input())
+total = num_vk + num_tt
+
+if total >= 6 and total < 30:
+    print('Ого! Вы были активны в соцсетях!')
+
+num = int(input())
+if num < 35:
+    print('Группа 1')
+elif num < 50:
+    print('Группа 2')
+elif num < 65:
+    print('Группа 3')
+elif num > 65:
+    print('Группа 4')
+
+
+    num = int(input())
+if num < 6:
+    print('ночь')
+elif num < 12:
+    print('утро')
+elif num < 18:
+    print('день')
+elif num < 22:
+    print('вечер')
+elif num <=23:
+    print('ночь')
+
+
+num = int(input())
+if 0 < num < 6:
+    print('ночь')
+elif num < 12:
+    print('утро')
+elif num < 18:
+    print('день')
+elif num < 22:
+    print('вечер')
+elif num <=23:
+    print('ночь')
+else:
+    print('Ошибка, введите время в часах 0-23.')
+
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+total = int((num1 + num2 + num3 + num4) / 4)
+
+if total total < 3000:
+    print('Пассивно...')
+elif total 3000 <= total < 6000:
+    print('Нормальная активность')
+elif total 6000 <= total < 10000:
+    print('Хорошая активность!')
+elif total total >= 10000:
+    print('Офигенская активность!')
+
 """
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+num4 = int(input())
+total = int((num1 + num2 + num3 + num4) / 4)
+
+if total total < 3000:
+    print('Пассивно...')
+elif total 3000 <= total < 6000:
+    print('Нормальная активность')
+elif total 6000 <= total < 10000:
+    print('Хорошая активность!')
+elif total total >= 10000:
+    print('Офигенская активность!')
 
 
 
