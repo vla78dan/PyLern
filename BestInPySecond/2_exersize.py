@@ -303,7 +303,6 @@ elif total 6000 <= total < 10000:
 elif total total >= 10000:
     print('Офигенская активность!')
 
-"""
 
 num1 = int(input())
 num2 = int(input())
@@ -322,9 +321,42 @@ elif total total >= 10000:
 
 
 
+temp_C = int(input())
+if temp_C <= 0:
+    cloth = 'пальто и шапка'
+if 1 <= temp_C < 15:
+    cloth = 'куртка и джинсы'
+if temp_C > 15:
+    cloth = 'футболка и шорты'
+print('Рекомендуемая одежда:', cloth)
 
 
+"""
 
+# hunger_level = int(input())
+#
+# # Определяем вариант перекуса
+# if hunger_level <= 3:
+#     meal = 'яблоко или йогурт'
+# elif hunger_level <= 7:
+#     meal = 'сэндвич или салат'
+# else:
+#     meal = 'бургер или шашлык'
+#
+# # Выводим результат
+# print('Ваш обед:', meal)
+
+# # Запрашиваем уровень голода
+# hunger_level = int(input())
+#
+# # Определяем вариант перекуса
+# if hunger_level > 6:
+#     meal = 'спагетти'
+#
+# print(meal)
+
+
+learning = 'обучение не выбрано'
 
 
 
