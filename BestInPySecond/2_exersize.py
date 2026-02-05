@@ -517,19 +517,79 @@ if bounce >= pit:
 else:
     print('Эй там, на дне ямы, тебе не повезло, начни уровень заново!')
 
+q = random.randint(1, 3)
+w = random.randint(1, 3)
+
+if w == q:
+    print('Удар заблокирован, бот вас переиграл и уничтожил!')
+else:
+    print('Вы пробили бота! Вы маэстро!')
+
+
+import random
+cube = int(input())
+cube_num = 0
+
+if cube == 1:
+    cube_num = random.randint(-2, 10)
+elif cube == 2:
+    cube_num = random.randint(-10, 25)
+
+print('Вы двигаетесь на:', cube_num)
+
+# for i in range(2):
+#     num1 = int(input())
+#     num2 = int(input())
+#     print(num1 + num2)
+
+# for i in range(3):
+#     num1 = int(input())
+#     print(num1 * 5)
+
+# for i in range(5):
+#     x = input()
+#     y = int(input())
+#     print('Вы добавили:', x, y)
+
+
+# for i in range(4):
+#     temp_C = int(input())
+#     if temp_C > 17:
+#         print('Warm!')
+#     else:
+#         print('Cold')
+
+# for i in range(5):
+#     q = input()
+#     if q == 'да':
+#         print('Замечательно, отдайте её учителю.')
+#     else:
+#         print('Жаль, система отнимает у вас 1 балл рейтинга.')
+
+# for i in range(2):
+#     x = input()
+#     y = input()
+#     z = input()
+#     print('Уважаемый', x)
+#     print('Вы заказали в столовой', y)
+#     print('И я записал вас на кружок', z)
+
+total = 0
+for i in range(3):
+    numb = int(input())
+    numb = numb + 10
+    total = total + numb
+print(total)
+
+
 """
 
 
-
-
-
-
-
-
-
-
-
-
+total = 1000
+for i in range(4):
+    sale = int(input())
+    total = total - sale
+print(f'На вашей карте осталось {total} рублей')
 
 
 
