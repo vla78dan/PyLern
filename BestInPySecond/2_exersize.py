@@ -422,6 +422,28 @@ if random_num == 2:
 
 import random
 
+random_num = random.randint(1, 2)
+if random_num == 1:
+    print('Заморозка времени')
+if random_num == 2:
+    print('Невидимость')
+
+    import random
+random_number = random.randint(1, 3)
+qu = ''
+if random_number == 1:
+    qu = 'сверху'
+if random_number == 2:
+    qu = 'слева'
+if random_number == 3:
+    qu = 'справа'
+
+print('Враг нападает на вас', qu)
+
+
+
+import random
+
 # Генерация случайного числа от 1 до 3
 random_number = random.randint(1, 3)
 
@@ -432,15 +454,67 @@ elif random_number == 2:
 elif random_number == 3:
     print('Вам достался телепорт!')
 
+import random
+random_number = random.randint(1, 8)
+
+if random_number == 1:
+    print('Заморозка времени')
+elif random_number == 2:
+    print('Невидимость')
+elif random_number == 3:
+    print('Чтение мыслей')
+elif random_number == 4:
+    print('Защитное поле')
+
+else:
+    print('Увы, ничего не выпало, повезёт в следующий раз!')
+
+import random
+
+armor_price = 500
+random_discount = random.randint(10, 500)
+
+print('Размер вашей скидки:', random_discount)
+print('Итоговая стоимость доспеха:', armor_price - random_discount)
+
+import random
+
+armor_price = 100
+quantity = int(input())
+random_discount = random.randint(10, 20)
+
+print('Вы покупаете доспехов:', quantity)
+print('Скидка на каждый доспех:', random_discount)
+print('Итоговая стоимость одного доспеха:', armor_price - random_discount)
+print('Итоговая стоимость всей покупки:', (armor_price * quantity) - (random_discount * quantity))
+
+import random
+
+armor_price = 100
+num = [10, 20, 30]
+random_discount = random.choice(num)
+
+print('Размер вашей скидки:', random_discount)
+print('Итоговая стоимость доспеха:', armor_price - random_discount)
 
 """
 import random
 
-random_num = random.randint(1, 2)
-if random_num == 1:
-    print('Заморозка времени')
-if random_num == 2:
-    print('Невидимость')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
