@@ -497,9 +497,27 @@ random_discount = random.choice(num)
 print('Размер вашей скидки:', random_discount)
 print('Итоговая стоимость доспеха:', armor_price - random_discount)
 
-"""
 import random
+pit = random.randint(100, 300)
+print('Перед вами образовалась яма, её длина:', pit)
 
+if pit <= 200:
+    print('Вы преодолели яму!')
+else:
+    print('Эй там, на дне ямы, тебе не повезло, начни уровень заново!')
+
+import random
+bounce = random.randint(100, 300)
+pit = random.randint(100, 300)
+print('Игрок умеет прыгать на:', bounce)
+print('Перед игроком образовалась яма на:', pit)
+
+if bounce >= pit:
+    print('Вы преодолели яму!')
+else:
+    print('Эй там, на дне ямы, тебе не повезло, начни уровень заново!')
+
+"""
 
 
 
