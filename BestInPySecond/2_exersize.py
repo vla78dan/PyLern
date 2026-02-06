@@ -585,16 +585,29 @@ print(total)
 """
 
 
-total = 1000
-for i in range(4):
-    sale = int(input())
-    total = total - sale
-print(f'На вашей карте осталось {total} рублей')
+# total = 1000
+# for i in range(4):
+#     sale = int(input())
+#     total = total - sale
+# print(f'На вашей карте осталось {total} рублей')
+
+import random
+num = int(input())
+number_guesses = 0    # количество отгадываний
 
 
-
-
-
+for i in range(3):
+    num_random = random.randint(1, 3)
+    if num == num_random:
+        print('Вау, вы настоящий волшебник!')
+        number_guesses += number_guesses
+    else:
+        print('Увы, в этот раз не повезло!')
+print('Количество отгадок:', number_guesses)
+if number_guesses >= 2:
+    print('Вау, вы сегодня были в ударе!')
+else:
+    print('Неплохой результат, но можно лучше!')
 
 
 
