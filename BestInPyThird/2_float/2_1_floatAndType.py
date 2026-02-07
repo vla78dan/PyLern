@@ -70,7 +70,38 @@ print('Всего было компов:', total_num_comp)
 print('Кабинетов с 1 компом:', only_1_comp)
 print('В оставшиеся кабинеты поставили по:', int(ku // other_offices))
 print('Вернули директору:', int(ku % other_offices))
+
+
+rub = int(input())
+kop = int(input())
+num_cake = int(input())
+
+total_kop = (rub * 100) + kop
+total_sale = total_kop * num_cake
+
+rub_sale = int(total_sale / 100)
+kop_sale = int(total_sale % 100)
+
+print('С вас рублей:', rub_sale)
+print('И копеек:', kop_sale)
+
+less = 45
+relax = 10
+num_less = int(input())
+
+total_less_min = (less * num_less) + (relax * (num_less - 1))
+
+hour_total = int(total_less_min / 60) + 9
+nim_total = int(total_less_min % 60)
+print(hour_total, nim_total)
+
+
 """
+
+
+
+
+
 
 
 
