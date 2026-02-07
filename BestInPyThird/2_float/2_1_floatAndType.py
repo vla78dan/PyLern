@@ -95,8 +95,55 @@ hour_total = int(total_less_min / 60) + 9
 nim_total = int(total_less_min % 60)
 print(hour_total, nim_total)
 
+import random
+
+ran_num  = random.randint(1, 100)
+if ran_num % 2 == 0:
+    print('Chyot')
+else:
+    print('Nechet')
+
+num = int(input())
+if num % 2 == 0:
+    print('Введённое число: чётное')
+else:
+    print('Введённое число: нечётное')
+
 
 """
+num_bus = input()
+
+last_num = int(str(num_bus[-1]))
+print('Последняя цифра номера:', last_num)
+
+if last_num % 2 == 0:
+    print('Автобус едет до района А')
+else:
+    print('Автобус едет до района Б')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
