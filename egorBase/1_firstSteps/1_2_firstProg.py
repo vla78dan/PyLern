@@ -229,8 +229,35 @@ print(num // 100 % 10)
 min_total = int(input()) % 1440
 print(min_total // 60, min_total % 60)
 
-"""
 
+
+bal = 1000
+bal += 500
+print(bal)
+bal -= 500
+print(bal)
+
+price = 200
+price *= 3
+print(price)
+
+price /= 2
+print(price)
+
+price //= 7
+print(price)
+
+num = 27
+num %= 5
+print(num)
+num **= 3
+print(num)
+
+
+"""
+x = float(input())
+x *= 1.5
+print(x)
 
 
 
