@@ -254,10 +254,12 @@ num **= 3
 print(num)
 
 
-"""
 x = float(input())
 x *= 1.5
 print(x)
+
+"""
+
 
 
 
