@@ -258,7 +258,45 @@ x = float(input())
 x *= 1.5
 print(x)
 
+num = int(input())
+print(num > 0)
+
+
+num = int(input())
+print(num % 2 == 0)
+
+num = int(input())
+print(num % 6 == 0)
+
+num = int(input())
+print(not num % 9 == 0)
+
+
+num = int(input())
+print(num % 10 == 2)
+
+num, num1 = map(int, input().split())
+print(num % 7 == 0 and num1 % 7 == 0)
+
+a, b, c = map(int, input().split())
+print(a == b and a == c and b == c)
+
+num = int(input())
+print(5 < num <= 19)
+
+
+
 """
+
+a, b, c = map(int, input().split())
+
+
+
+
+
+
+
+
 
 
 
