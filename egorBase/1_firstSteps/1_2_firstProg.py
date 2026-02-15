@@ -284,56 +284,16 @@ print(a == b and a == c and b == c)
 num = int(input())
 print(5 < num <= 19)
 
+a, b, c = map(int, input().split())
+
+print(a + b > c and a + c > b and b + c > a)
+
+num1 = input()
+print(len(num1) == 2)
+
 
 
 """
 
 a, b, c = map(int, input().split())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print((a ** 2 + b ** 2 == c ** 2) or (c ** 2 + b ** 2 == a ** 2) or (a ** 2 + c ** 2 == b ** 2))
