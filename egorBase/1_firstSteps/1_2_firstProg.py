@@ -291,9 +291,69 @@ print(a + b > c and a + c > b and b + c > a)
 num1 = input()
 print(len(num1) == 2)
 
+a, b, c = map(int, input().split())
+print((a ** 2 + b ** 2 == c ** 2) or (c ** 2 + b ** 2 == a ** 2) or (a ** 2 + c ** 2 == b ** 2))
+
+
+import math
+
+
+num = int(input())
+print(math.ceil(num / 4))
+
+import math
+
+cl1 = int(input())
+cl2 = int(input())
+cl3 = int(input())
+cl1_p = math.ceil(cl1 / 2)
+cl2_p = math.ceil(cl2 / 2)
+cl3_p = math.ceil(cl3 / 2)
+print(cl1_p + cl2_p + cl3_p)
+
+
+
+import math
+
+L, W, H = map(int, input().split())
+print(math.ceil(((L * H) + (W * H)) * 2 / 16))
 
 
 """
 
-a, b, c = map(int, input().split())
-print((a ** 2 + b ** 2 == c ** 2) or (c ** 2 + b ** 2 == a ** 2) or (a ** 2 + c ** 2 == b ** 2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
