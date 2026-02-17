@@ -319,6 +319,10 @@ L, W, H = map(int, input().split())
 print(math.ceil(((L * H) + (W * H)) * 2 / 16))
 
 
+print(-53 // 5)
+print(-47% (-8))
+print(-150%3)
+
 """
 
 
