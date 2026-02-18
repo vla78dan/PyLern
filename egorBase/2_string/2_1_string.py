@@ -42,7 +42,13 @@ print('Код символа ' + str3 + ' равен ' + e)
 
 """
 
-
+str1, str2, str3 = map(str, input().split())
+q = str(ord(str1))
+w = str(ord(str2))
+e = str(ord(str3))
+print('Код символа ' + str1 + ' равен ' + q)
+print('Код символа ' + str2 + ' равен ' + w)
+print('Код символа ' + str3 + ' равен ' + e)
 
 
 
