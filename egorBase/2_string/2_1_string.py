@@ -151,7 +151,20 @@ string.join(list) - возвращает новую строку, в котор�
 
 str1 = input()
 print(str1.upper())
+
+str1 = input()
+print(str1.lower())
+
+str1 = input()
+print(str1.swapcase())
+
+text = 'каска'
+print(text.rfind('а'))
+
 """
+
+str1 = input()
+print(str1.replace(' ', ','))
 
 
 
