@@ -161,10 +161,14 @@ print(str1.swapcase())
 text = 'каска'
 print(text.rfind('а'))
 
-"""
-
 str1 = input()
-print(str1.replace(' ', ','))
+print(str1.replace('z', '').replace('w', ''))
+
+s = input().lower()
+s = s.replace('o', '').replace('a', '').replace('y', '').replace('e', '').replace('i', '').replace('u', '')
+
+print('.' + '.'.join(s))
+"""
 
 
 
