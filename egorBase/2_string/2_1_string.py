@@ -102,7 +102,55 @@ print(str1[-1::-3])
 str1 = input()
 print(str1[-1] + str1[0:-1])
 
+str1 = 'HELLO world'
+print(str1.upper()) # HELLO WORLD
+print(str1.lower()) # hello world
+print(str1.count('l')) # количество 'l' - 1
+print(str1.find('l')) # индекс подстроки - 9
+print(str1.rfind('l')) # индекс подстроки справа - 9
+print(str1.find('z')) # несуществующий символ возвращает (-1)
+#print(str1.index('z')) # несуществующий символ возвращает Error
+print(str1.replace('L', 'WWW')) # HEWWWWWWO world
+print(str1.isalpha()) # состоит ли строка из только букв False, тк есть пробел
+print(str1.isdigit()) # состоит ли строка из только цифр False
 
+str1 = '111'
+print(str1.rjust(5, '0')) # -00111 дополняет строку справа до указанной длины
+print(str1.ljust(7, '9')) # -1119999
+
+
+q = 'ivanov ivan ivanovich'
+print(q.split()) #- ['ivanov', 'ivan', 'ivanovich'] - разбивает строку по пробелам и сохраняет в список
+print(len(q.split())) #- 3
+print(q.split('n')) # - ['iva', 'ov iva', ' iva', 'ovich']? разбиваем по букве n
+
+w = '12.3665.456523.4587.654'
+t = w.split('.')
+print(t) # - ['12', '3665', '456523', '4587', '654']
+print('='.join(t)) # - 12=3665=456523=4587=654
+e = '   jhlkj         '
+print(e.strip()) # - jhlkj удаляет пробелы
+print(e.lstrip()) # -'jhlkj         '
+print(e.rstrip()) # - '   jhlkj'
+
+string.upper() - переводит все буквы в верхний регистр
+string.lower() - переводит все буквы в нижний регистр
+string.capitalize() - переводит первую букву слова в верхний регистр, а все остальные в нижний
+string.title() - переводит первую букву каждого слова в верхний регистр, а все остальные в нижний
+string.swapcase() - меняет регистр всех букв в тексте
+string.strip() - удаляет пробелы в начале и конце строки
+string.lstrip() - удаляет пробелы в начале строки
+string.rstrip() - удаляет пробелы в конце строки
+string.count('substring') - возвращает количество вхождений подстроки в тексте
+string.replace('old_substring', 'new_substring') - заменяет вхождения подстроки на новую в тексте
+string.find('substring') - возвращает индекс первого вхождения подстроки в тексте, если не найден - возвращает -1
+string.index('substring') - возвращает индекс первого вхождения подстроки в тексте, если не найден - вызывает ValueError
+
+string.split('delimiter') - возвращает список, разделенный по указанному разделителю
+string.join(list) - возвращает новую строку, в которой все элементы из списка string объединены в одну строку
+
+str1 = input()
+print(str1.upper())
 """
 
 
