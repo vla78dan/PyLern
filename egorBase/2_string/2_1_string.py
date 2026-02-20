@@ -184,18 +184,107 @@ count_E = str1.count('E')
 print(count_e + count_E)
 
 
-"""
+
+Метод startswith проверяет, начинается ли строка на указанную подстроку. Возвращает True или False.
+
+В первом параметре метода задаем нужную нам подстроку, во втором и третьем необязательных параметрах - индекс начала и конца поиска соответственно.
+
+Метод endswith проверяет, заканчивается ли строка на указанную подстроку и возвращает значения True или False. В первом параметре метода задаем нужную нам подстроку, во втором и третьем необязательных параметрах - индекс начала и конца поиска соответственно.
+
+# Метод .startswith  (с английского «starts with» дословно переводится как «начинаться с») позволяет проверить, начинается ли строка с определенной подстроки (префикса).
+
+
 str1 = "Oleg Popov"
+str_star = str1.startswith('Oleg')
+print(str_star)
+
+
+# Метод .endswith (с английского «ends with» дословно переводится как «заканчиваться чем-то») позволяет проверить, заканчивается ли строка определенной подстрокой.
+
+str1 = "Oleg Popov"
+end_star = str1.endswith('pov')
+print(end_star)
+
+str1 = input().lower()
+print(str1.startswith('mam'))
+
+
+str1 = input()
+post_end = input()
+print(str1.endswith(post_end))
+
+str1 = input()
+str1_pre = input()
+str1_post = input()
+print(str1.startswith(str1_pre) and str1.endswith(str1_post))
 
 
 
 
+.ljust() — выравнивание влево;
+Метод  .ljust создаст новую строку, в которой исходная строка S прижмется к левой стороне, а справа она будет дополнена символами fillchar до указанной длины width.
+d = 'Coldplay'
+print(d.ljust(11))
+print(d.ljust(14, '-'))
+print(d.ljust(14, '$'))
+# Coldplay
+# Coldplay------
+# Coldplay$$$$$$
 
 
+.rjust() — выравнивание вправо;
+Метод  .rjust создаст новую строку, в которой исходная строка S прижмется к правой стороне, а слева она будет дополнена символами fillchar до указанной длины width.
+d = 'Coldplay'
+print(d.rjust(14))
+print(d.rjust(14, '-'))
+print(d.rjust(14, '$'))
+#       Coldplay
+# ------Coldplay
+# $$$$$$Coldplay
 
 
+.center() — центрирование строки;
+Метод  .center создаст новую строку, в которой исходная строка S располагается по центру, а слева и справа она будет дополнена символами fillchar до указанной длины width.
+Строка 'Coldplay' центрируется, а с обеих сторон добавляются fillchar. Если число добавляемых символов нечётное, больше символов окажется слева.
+d = 'Coldplay'
+print(d.center(14))
+print(d.center(14, '-'))
+print(d.center(14, '$'))
+print(d.center(15, '%'))
+print(d.center(11, '&'))
+
+#    Coldplay
+# ---Coldplay---
+# $$$Coldplay$$$
+# %%%%Coldplay%%%
+# &&Coldplay&
+
+.zfill() — дополнение нулями слева.
+Метод .zfill возвращает новую строку, в которой исходная строка S дополнена нулями слева так, чтобы длина новой строки стала равна width.
+Если параметр width меньше длины строки, то будет возвращена исходная строка без изменений:
+
+d = '123'
+print(d.zfill(5))
+print(d.zfill(6))
+print(d.zfill(7))
+print('qwerty'.zfill(14))
+# 00123
+# 000123
+# 0000123
+# 00000000qwerty
+
+srt1 = input()
+print(srt1.ljust(15, '-'))
+srt1 = input()
+print(srt1.rjust(10, '!'))
+
+srt1 = input()
+print(srt1.center(15, '_'))
 
 
+"""
+
+print(input().zfill(10))
 
 
 
