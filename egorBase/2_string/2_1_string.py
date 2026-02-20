@@ -168,7 +168,29 @@ s = input().lower()
 s = s.replace('o', '').replace('a', '').replace('y', '').replace('e', '').replace('i', '').replace('u', '')
 
 print('.' + '.'.join(s))
+
+s = "Программисты не боятся ошибок. Они просто говорят: 'Это фича!'"
+print(s.index('р').swapcase())
+
+s = 'Abracadabra' # Метод .count() позволяет узнать, сколько раз встречается строка
+print(s.count('A')) # - 1
+print(s.count('ra')) # - 2
+print(s.count('a')) # - 4
+print(s.count('q')) # - 0
+
+str1 = input()
+count_e = str1.count('e')
+count_E = str1.count('E')
+print(count_e + count_E)
+
+
 """
+str1 = "Oleg Popov"
+
+
+
+
+
 
 
 
