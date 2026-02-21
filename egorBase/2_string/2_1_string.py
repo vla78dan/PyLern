@@ -367,8 +367,16 @@ print('Qwe,,  rty'.istitle())
 # False
 # False
 
+str1 = input()
+print(str1.isdigit())
+
+str1 = input()
+print(str1.isalpha() and str1.islower())
 
 """
+
+
+
 
 
 
