@@ -414,9 +414,38 @@ s.strip('?') #->!?!??!_---____-----qwerty (закончит на первом в
 str1 = input()
 print(str1.lstrip('-_!?'))
 
+
+name = 'Vladimir'
+middle_name = 'Michailovich'
+balance_total = 10000000.23
+balance = str(balance_total)
+
+text_concat = "Dear " +  name + ' ' + middle_name + ', Your personal account balance is ' + balance + ' $'
+print(text_concat)
+
+name = 'Vladimir'
+middle_name = 'Michailovich'
+balance = 10000000.23
+
+name = 'Vladimir'
+middle_name = 'Michailovich'
+balance = 10000000.23
+
+
+text = "Dear {0} {1}, Your personal account balance
+is {2} $ ".format(name, middle_name, balance)
+print(text) # Dear Vladimir Michailovich, Your personal account balance is 10000000.23 $
+
 """
 
 
+name = 'Vladimir'
+middle_name = 'Michailovich'
+balance = 10000000.23
+
+
+text = "Dear {name} {middle_name}, Your personal account balance is {balance} $ ".format(name=name, middle_name=middle_name, balance=balance)
+print(text) # Dear Vladimir Michailovich, Your personal account balance is 10000000.23 $
 
 
 
