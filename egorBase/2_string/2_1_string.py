@@ -281,10 +281,111 @@ print(srt1.rjust(10, '!'))
 srt1 = input()
 print(srt1.center(15, '_'))
 
+print(input().zfill(10))
+
+
+Метод .islower  имеет следующий шаблон вызова:
+S.islower()
+Данный метод возвращает True , если строка S не пустая и состоит только из алфавитных букв, записанных в нижнем регистре. Если в строке имеется хотя бы одна заглавная буква, будет возвращено False.  Знаки пунктуации, специальные символы или цифры игнорируются при проверке.
+
+print('qwerty'.islower())
+print('qwerty!&&&'.islower())
+print('12345'.islower())
+print('123qwerty'.islower())
+print('123Qwerty'.islower())
+# True
+# True
+# False
+# True
+# False
+
+
+
+Метод .isupper  имеет следующий шаблон вызова:
+S.isupper()
+Данный метод возвращает True , если строка S не пустая и состоит только из алфавитных букв, записанных в верхнем регистре. Если в строке имеется хотя бы одна строчная буква, будет возвращено False.  Знаки пунктуации, специальные символы или цифры игнорируются при проверке.
+
+print('qwerty'.isupper())
+print('QWERTTY'.isupper())
+print('QWERTTY%%%%'.isupper())
+print('123QWER45687'.isupper())
+# False
+# True
+# True
+# True
+
+
+Метод .isdigit  имеет следующий шаблон вызова:
+S.isdigit()
+Данный метод возвращает True , если строка S не пустая и состоит только из символов-цифр. В случае, если строка пустая или в строке есть хотя бы один символ отличный от цифр, вернется False
+
+print('123344455'.isdigit())
+print('1,2'.isdigit())
+print('12Qwww'.isdigit())
+print('123 344 455'.isdigit())
+print('qwerty'.isdigit())
+# True
+# False
+# False
+# False
+# False
+
+Метод .isalpha  имеет следующий шаблон вызова:
+S.isalpha()
+Данный метод возвращает True , если строка S не пустая и состоит только из символов-букв. Если в строке встретится хотя бы один символ, неявляющийся буквой, то метод .isalpha вернет значение False.
+
+print('qwerty'.isalpha())
+print('12345687'.isalpha())
+print('QWERTY'.isalpha())
+# True
+# False
+# True
+
+Метод .isalnum  имеет следующий шаблон вызова:
+S.isalnum()
+Данный метод возвращает True , если строка S не пустая и состоит только из букв и цифр. Если в строке имеется хотя бы один не буквенный и не числовой символ, то будет возвращено False:
+print('qwerty'.isalnum())
+print('qwe123rty'.isalnum())
+print('qwe,rty'.isalnum())
+print('qwe rty'.isalnum())
+# True
+# True
+# False
+# False
+
+
+Метод .istitle  имеет следующий шаблон вызова:
+S.istitle()
+Данный метод возвращает True , если строка S не пустая и является строкой заголовков: каждое новое слово начинается с заглавной буквы.  Знаки пунктуации, специальные символы или цифры игнорируются при проверке.
+
+print('Qwerty'.istitle())
+print('QwerTy'.istitle())
+print('Qw2333erty'.istitle())
+print('Qwe,,  rty'.istitle())
+# True
+# False
+# False
+# False
+
 
 """
 
-print(input().zfill(10))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
