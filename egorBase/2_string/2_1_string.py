@@ -457,10 +457,15 @@ num_q = num - 1
 num_l = num + 1
 print('Для числа {num} предыдущим будет число {num_q}.'.format(num=num, num_q=num_q))
 print('Для числа {num} следующим будет число {num_l}.'.format(num=num, num_l=num_l))
+q = float(input())
+w = float(input())
+e = float(input())
 
+
+total = (q + w + e) / 3
+print('Средний курс доллара за последние три дня: %.2f RUB.' %(total))
 
 """
-
 
 
 
