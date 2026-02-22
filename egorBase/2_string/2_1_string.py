@@ -436,8 +436,6 @@ text = "Dear {0} {1}, Your personal account balance
 is {2} $ ".format(name, middle_name, balance)
 print(text) # Dear Vladimir Michailovich, Your personal account balance is 10000000.23 $
 
-"""
-
 
 name = 'Vladimir'
 middle_name = 'Michailovich'
@@ -446,6 +444,25 @@ balance = 10000000.23
 
 text = "Dear {name} {middle_name}, Your personal account balance is {balance} $ ".format(name=name, middle_name=middle_name, balance=balance)
 print(text) # Dear Vladimir Michailovich, Your personal account balance is 10000000.23 $
+
+name = input()
+last_name = input()
+print('«Здравствуйте, {last_name} {name}!»'.format(name=name, last_name=last_name))
+
+word = input()
+print('Что Вы сказали? {word}? Какое интересное слово'.format(word=word))
+
+num = int(input())
+num_q = num - 1
+num_l = num + 1
+print('Для числа {num} предыдущим будет число {num_q}.'.format(num=num, num_q=num_q))
+print('Для числа {num} следующим будет число {num_l}.'.format(num=num, num_l=num_l))
+
+
+"""
+
+
+
 
 
 
