@@ -539,18 +539,62 @@ quantity = int(input())
 print(f'Current dollar rate is {exchange_rate}. You want to buy {quantity} dollars', f'You must pay {(exchange_rate * quantity)}', sep='\n')
 
 
-
-
-"""
 x = 7
 y = 3
 print(f"Результат {x} + {y} = {f"{x + y}"}")
 
 
+n = 1234
+print(f'|{n:7}|')
+print(f'|{n:5}|')
+print(f'|{n:4}|')
+print(f'|{n:2}|')
+print(f'|{n:1}|')
+# |   1234|
+# | 1234|
+# |1234|
+# |1234|
+# |1234|
+
+name = 'Vlad'
+print(f'|{name:7}|')
+print(f'|{name:5}|')
+print(f'|{name:4}|')
+print(f'|{name:2}|')
+print(f'|{name:1}|')
+# |Vlad   |
+# |Vlad |
+# |Vlad|
+# |Vlad|
+# |Vlad|
+
+# Символ	Значение
+# <	Выравнивает выражение в фигурных скобках по левому краю. У строк такое поведение по умолчанию
+# >	Выравнивает выражение в фигурных скобках по правому краю. У чисел такое поведение по умолчанию
+# ^	Выравнивает выражение в фигурных скобках по центру
+
+number = 12345.6789
+print(f'Число {number = }') #Число number = 12345.6789
+print(f'Число |{number:25}|') #Число |               12345.6789|
+print(f'Число |{number:<25}|') #Число |12345.6789               |
+print(f'Число |{number:>25}|') #Число |               12345.6789|
+print(f'Число |{number:^25}|') #Число |       12345.6789        |
+
+text = 'Python 3.12'
+print(f'Строка {text = }')#Строка text = 'Python 3.12'
+print(f'|{text:<25}|')#|Python 3.12              |
+print(f'|{text:>25}|')#|              Python 3.12|
+print(f'|{text:^25}|')#|       Python 3.12       |
+
+number = 12345.6789
+print(f'Число {number = }') #Число number = 12345.6789
+print(f'Число |{number:25}|') #Число |               12345.6789|
+print(f'Число |{number:%<25}|') #|12345.6789%%%%%%%%%%%%%%%|
+print(f'Число |{number:&>25}|') #Число |&&&&&&&&&&&&&&&12345.6789|
+print(f'Число |{number:*^25}|') #Число |*******12345.6789********|
 
 
-
-
+"""
 
 
 
