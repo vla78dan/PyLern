@@ -25,7 +25,25 @@ t = sorted(q) # [-56, 23, 56, 78, 102, 458, 698]
 y = sorted(q, reverse=True) # [698, 458, 102, 78, 56, 23, -56]
 print(y)
 
+
+my_list = [1] * 77
+print(my_list)
+
+my_list = ['q', 'w', 't'] * 15
+print(my_list)
+
+
+my_list = list(map(int, input().split()))
+print(777 in my_list)
+
+mas = list(map(int, input().split()))
+print(min(mas), max(mas))
+
+list_num = list(map(int, input().split()))
+print(sum(list_num) / len(list_num))
+
 """
+
 
 
 
