@@ -42,8 +42,13 @@ print(min(mas), max(mas))
 list_num = list(map(int, input().split()))
 print(sum(list_num) / len(list_num))
 
+a = [43, 54, 2, 54, 32]
+b = [3,4,5,6,7,8,9,10,11]
+print(b[-1]) #11
+print(b[0 : 5]) #[3, 4, 5, 6, 7]
+del a[0]
+print(a)#[54, 2, 54, 32]
 """
-
 
 
 
