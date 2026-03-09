@@ -201,21 +201,40 @@ print(a.count(999))
 
 """
 
+# .split()
 
 
+# s = 'Ivanov Ivan Ivanovich'
+# print(s.split()) #['Ivanov', 'Ivan', 'Ivanovich']
+# print(s.split(' ')) #['Ivanov', 'Ivan', 'Ivanovich']
+# print(s.split('I')) #['', 'vanov ', 'van ', 'vanovich']
+
+# s  = '1, 2, 3, 4, 5, 6, 7'
+# print(s.split(','))#['1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7']
+
+# s = 'qqqqqq'
+# print(s.split('q'))# ['', '', '', '', '', '', '']
+
+# s = input().split()#saeh wshet erthw aerh
+# print(s)#['saeh', 'wshet', 'erthw', 'aerh']
+
+# s = input().split()#45 65 47 78 98 23
+# print(s)#['45', '65', '47', '78', '98', '23']
 
 
+# .join()
 
+# s = ['45', '65', '47', '78', '98', '23']
+# print('#'.join(s))#45#65#47#78#98#23
+# print('*******'.join(s))#45*******65*******47*******78*******98*******23
 
+#Преобразование чисел списка в строку
+# s = [45, 65, 47, 78, 98, 23]
+# print(','.join(map(str, s)))#45,65,47,78,98,23
+# print(','.join([str(i) for i in s]))#45,65,47,78,98,23
 
-
-
-
-
-
-
-
-
+notes = 'до ре ми фа соль ля си'
+print(notes.split(', ', 2))
 
 
 
