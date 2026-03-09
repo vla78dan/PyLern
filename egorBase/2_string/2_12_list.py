@@ -233,8 +233,8 @@ print(a.count(999))
 # print(','.join(map(str, s)))#45,65,47,78,98,23
 # print(','.join([str(i) for i in s]))#45,65,47,78,98,23
 
-notes = 'до ре ми фа соль ля си'
-print(notes.split(', ', 2))
+# notes = 'до ре ми фа соль ля си'
+# print(notes.split(', ', 2))
 
 
 
