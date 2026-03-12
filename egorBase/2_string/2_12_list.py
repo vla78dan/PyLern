@@ -270,9 +270,11 @@ Sample Output 1:
 кроет
 
 
-"""
 s = input().split()
 print(*s, sep='\n')
+
+"""
+
 
 
 
