@@ -68,9 +68,21 @@ while 33 in a:
 5
 [1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
 
-"""
+
 alpha = 3
 while alpha <= 24:
     print(alpha)
     alpha *= 2
     print(alpha)
+
+i = 25
+while i >= 14:
+    print(i)
+    i = i - 1
+
+i = 25
+while i >= 14:
+    print(i)
+    i = i - 1
+"""
+
