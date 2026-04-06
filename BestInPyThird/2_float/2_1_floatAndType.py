@@ -110,7 +110,7 @@ else:
     print('Введённое число: нечётное')
 
 
-"""
+
 num_bus = input()
 
 last_num = int(str(num_bus[-1]))
@@ -120,6 +120,9 @@ if last_num % 2 == 0:
     print('Автобус едет до района А')
 else:
     print('Автобус едет до района Б')
+"""
+print()
+
 
 
 
