@@ -48,16 +48,21 @@ stone = 8
 iron = 3
 print(f'Дерево | {wood} | Камень | {stone} | Железо | {iron} |')
 
+
+
+a, b = 8, 15
+a = b
+b = a
+
+print(a)
+print(b)
 """
 
+force , balance, push = 'fus', 'ro', 'dah'
 
 
 
-
-
-
-
-
+print(force , balance, push)
 
 
 
