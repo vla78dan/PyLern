@@ -56,13 +56,66 @@ b = a
 
 print(a)
 print(b)
-"""
+
 
 force , balance, push = 'fus', 'ro', 'dah'
 
 
 
 print(force , balance, push)
+
+text = input()
+print(text)
+
+
+
+text = input()
+print('Сам ты ', text)
+
+num = int(input()) * 5
+print(num)
+
+print(int(float(input())))
+
+
+
+q = int(input())
+w = int(input())
+print(f'{q} + {w} = {q + w}')
+
+helmet = int(input())
+armor = int(input())
+weapon = input()
+
+print(f'Шлем {helmet} уровня, Броня {armor} уровня, Оружие {weapon}.')
+
+
+
+weapon = input()
+damage = int(input())
+
+print(f'{weapon} наносит {damage} урона.')
+
+race = input()
+character_class = input()
+armor = int(input())
+health = int(input())
+damage = float(input())
+print('Раса:',race)
+print('Класс:',character_class)
+print('Броня:',armor)
+print('Здоровье:',health)
+print('Урон:',damage)
+
+"""
+
+
+
+
+
+
+
+
 
 
 
