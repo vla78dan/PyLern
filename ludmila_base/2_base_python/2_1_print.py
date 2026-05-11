@@ -107,17 +107,44 @@ print('Броня:',armor)
 print('Здоровье:',health)
 print('Урон:',damage)
 
+
+
+num = int(input())
+num2 = num + 1
+print(f'Поздравляю! Ты достиг нового уровня {num} -> {num2}. Навыки готовы к улучшению! ')
+
+a = int(input())
+b = int(input())
+print(f'{a} + {b} = {a + b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b}')
+print(f'{a} / {b} = {a ** b}')
+
+a = int(input())
+b = int(input())
+print(f'{a} + {b} = {a + b}')
+print(f'{a} - {b} = {a - b}')
+print(f'{a} * {b} = {a * b}')
+print(f'{a} / {b} = {a / b}')
+print(f'{a} / {b} = {a ** b}')
+
+
 """
 
+width = int(int(input()) / 2)
+height = int(input())
+gap = int(input())
+
+q1 = width, (int(height / 2) - gap)
+q2 = int(width / 2) , int(height / 2) - (gap * 2)
+q3 = int(width / 2) , int(height / 2)
+q4 = int(width / 2) , (int(height / 2) + gap)
+q5 = int(width / 2) , int(height / 2) + (gap * 2)
 
 
 
-
-
-
-
-
-
+print(q1, q2, q3, q4, q5, sep="\n")
 
 
 
