@@ -68,7 +68,36 @@ H = ((v ** 2) * (s_angle ** 2)) / 2 * g
 R = ((v ** 2) * s_angle) / g
 print(round(T, 2), round(H, 2), round(R, 2), sep='\n')
 
+r = float(input())
+print(round((math.pi * r ** 2), 2))
+
+price = float(input())
+print(math.ceil(price), math.floor(price), sep='\n')
+
+
+
+max_T  = float(input())
+min_T = float(input())
+print(abs(max_T - min_T))
+
+num = int(input())
+print(int(math.sqrt(num)))
+
+
+num = float(input())
+exp = math.log(num)
+print(math.log(num), math.log10(num), math.exp(exp), sep='\n')
 
 """
+# ang = float(input())
+# rad = math.radians(ang)
+# print((round(math.sin(rad), 6)), (round(math.cos(rad), 6)), (round(math.tan(rad), 6)), sep='\n')
+
+import math
+
+print(math.sqrt(16))
+print(math.isqrt(10))
+print(math.pow(2, 3))
+
 
 

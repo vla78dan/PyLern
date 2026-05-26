@@ -122,9 +122,19 @@ print(w in q and e in q )
 
 q = input()
 print("Ти-рекс" in q)
-"""
 
-print("\\\\")
+
+str1 = input()
+print(str1[0], str1[-1])
+
+str1 = input()
+print(str1[::-1])
+
+"""
+str1 = input()
+
+print(str1[1::2] + str1[::2])
+
 
 
 

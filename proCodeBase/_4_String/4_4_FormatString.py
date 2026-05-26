@@ -23,10 +23,28 @@ age = input()
 hobby = input()
 print("Меня зовут {name}, мне {age} лет, и я люблю {hobby}.".format(name=name, age=age, hobby=hobby))
 
+
+name = input()
+age = input()
+print(f'Меня зовут {name}, мне {age} лет.')
+
 """
+# name = input()
+# age = input()
+# print(f'Фильм {name} был выпущен в {age}.')
 
+# print(chr(128512))
 
+# sym = input()
+# num_sym = ord(sym)
+# chr_sym = chr(num_sym)
+# print(num_sym, chr_sym, sep='\n')
 
+# text = "  a   b\tc\n"
+# result = " ".join(text.split())
+#
+# print(result)
 
-
-
+# text = "abba"
+# print(text)
+print(ord("A"))
