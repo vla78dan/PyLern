@@ -47,4 +47,34 @@ print(f'Меня зовут {name}, мне {age} лет.')
 
 # text = "abba"
 # print(text)
-print(ord("A"))
+# print(ord("A"))
+# print("" or "guest")
+# print([] and 123)
+# color = "red"
+#
+# match color:
+#     case c:
+#         print("Захватили:", c)
+#
+#         raw = "   "
+#
+#         if (name := raw.strip()):
+#             print(f"Привет, {name}")
+#         else:
+#             print("Имя не введено")
+#
+
+
+
+
+raw = "   "
+
+if (name := raw.strip()):
+    print(f"Привет, {name}")
+else:
+    print("Имя не введено")
+
+score = 72
+
+label = "зачёт" if score >= 60 else "незачёт"
+print(label)
